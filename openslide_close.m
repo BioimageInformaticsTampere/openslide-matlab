@@ -37,4 +37,4 @@ end
 % Close whole-slide image
 calllib('openslidelib','openslide_close',openslidePointer);
 
-disp('Remember to clear the pointer to the openslide object, since it is not valid anymore')
+%disp('Remember to clear the pointer to the openslide object, since it is not valid anymore')
